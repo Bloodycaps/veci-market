@@ -1,8 +1,6 @@
 package com.cursoSpring.vecimarket.persistence.entity;
 
 import javax.persistence.*;
-import javax.xml.crypto.Data;
-import java.time.LocalDate;
 import java.time.LocalDateTime;
 
 @Entity
