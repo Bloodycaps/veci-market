@@ -24,6 +24,21 @@ public class Compra {
 
     private String estado;
 
+    public Cliente getCliente() {
+        return cliente;
+    }
+
+    public void setCliente(Cliente cliente) {
+        this.cliente = cliente;
+    }
+
+    public List<ComprasProducto> getProductos() {
+        return productos;
+    }
+
+    public void setProductos(List<ComprasProducto> productos) {
+        this.productos = productos;
+    }
 
     @ManyToOne
     @JoinColumn(name = "id_cliente", insertable = false, updatable = false)
